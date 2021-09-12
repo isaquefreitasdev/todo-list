@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsla(33, 100%, 53%, 1);
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    color:#00296B;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#buttonTask{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: blanchedalmond;
+    border-color: blue;
+
+}
+
+#task{
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+
+}
+
+li{
+    position: relative;
+    top: 30px;
+    display: flex;
+    margin-top: 10px; 
+    list-style: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-top: none;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+#btnDelete{
+    color: blue;
+    margin-left: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Mulish', sans-serif;
+    background-color: blanchedalmond;
+}
